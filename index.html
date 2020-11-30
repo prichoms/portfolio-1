@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#project" onclick="toggleMenu();">Project</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Testimonials</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h3>Hello, I'm<br><span>Piyush Kumar</span></h3>
+            <h4>Competitive Coder || Full Stack Dev || Flutter Dev</h4>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Competitive Coder || Full Stack Dev || Flutter Dev</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam illum assumenda ipsa ad sint excepturi
+                    necessitatibus et eius esse ut illo odit voluptas, molestiae inventore! Doloribus laudantium maiores
+                    tempore nisi!<br><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium impedit
+                    voluptatum perferendis accusantium consequatur eos nemo neque, aperiam esse corporis iure veniam
+                    libero ab quasi adipisci ea molestiae sequi assumenda!</p>
+            </div>
+            <div class="w50">
+                <img src="images/motivation.jpg" class="img">
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>My Expertise</h2>
+            <p>The fields, I have command on and my inetrests.</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="images/webdesign.png" width="160px" height="80px">
+                <h2>Web Design</h2>
+                <p>A web designer works on the appearance, layout, and, in some cases, content of a website. Appearance,
+                    for instance, relates to the colors, font, and images used. </p>
+            </div>
+            <div class="servicesBx">
+                <img src="images/android.jpg">
+                <h2>App Development</h2>
+                <p>Mobile app development is the act or process by which a mobile app is developed for mobile devices,
+                    such as personal digital assistants, enterprise digital assistants or mobile phones.
+                </p>
+            </div>
+            <div class="servicesBx">
+                <img src="images/full stack.jpg" width="160px" height="80px">
+                <h2>Full Stack Development</h2>
+                <p>A full stack web developer is a person who can develop both client and server software.
+                    In addition to mastering HTML and CSS, he/she also knows how to:
+                    Program a browser (like using JavaScript, jQuery, Angular, or Vue)
+                    Program a server (like using PHP, ASP, Python, or Node)
+                    Program a database (like using SQL, SQLite, or MongoDB)</p>
+            </div>
+            <div class="servicesBx">
+                <img src="images/software.png" width="160px" height="80px">
+                <h2>Software Development</h2>
+                <p>Software development is a process of writing and maintaining the source code, but in a broader sense,
+                    it includes all that is involved between the conception of the desired software through to the final
+                    manifestation of the software, sometimes in a planned and structured process.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="project" id="project">
+        <div class="heading ">
+            <h2>My Projects</h2>
+            <p>My one year experience output.</p>
+        </div>
+        <div class="content">
+            <div class="projectBx">
+                <img src="images/flutter.png">
+            </div>
+            <div class="projectBx">
+                <img src="images/logo.png">
+            </div>
+            <div class="projectBx">
+                <img src="images/websitelogo.png">
+            </div>
+            <div class="projectBx">
+                <img src="images/happy-adda-logo.jpg">
+            </div>
+        </div>
+        <div class="heading">
+            <a href="#" class="btn">View More</a>
+        </div>
+    </section>
+
+
+    <section class="testimonial" id="testimonial">
+        <div class="heading ">
+            <h2>Testimonials</h2>
+            <p>Let the experts speak, on behalf of my work.</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias dolorem incidunt quaerat,
+                    quisquam aliquid recusandae fugit dignissimos vel soluta iusto repellat nam illum sint dolorum harum
+                    ab itaque placeat dolore!</p>
+                <h3>Siddarth Pandey<br><span>Full Stack Developer</span></h3>
+            </div>
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias dolorem incidunt quaerat,
+                    quisquam aliquid recusandae fugit dignissimos vel soluta iusto repellat nam illum sint dolorum harum
+                    ab itaque placeat dolore!</p>
+                <h3>Ankita Mishra<br><span>Progate India Manager</span></h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Me</h2>
+            <p>Reach me here for any quries and work related stuff</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>405,Lotus Block,<br>New Green City<br>Dimna,Jamshedpur-831018</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Mobile</h3>
+                            <p>620-18-56718</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>kumarpiyushsingh9311@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" name="" placeholder="Name">
+                    <input type="email" name="" placeholder="Mail-Id">
+                    <textarea placeholder="Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>copyright @ 2020 Piyush Kumar. All Right Reserved</p>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+    </script>
+
+</body>
+
+</html>
